@@ -1,7 +1,27 @@
 aid: the-atavist
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-atavist.png
 name: The Atavist
-description: The Atavist is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Atavist is a pioneering digital longform-storytelling brand founded in 2009 by
+  Evan Ratliff, Jefferson Rabb, and Nicholas Thompson. It comprises The Atavist Magazine,
+  which publishes one immersive work of narrative nonfiction each month and has earned
+  National Magazine Award and Emmy recognition, and the Atavist multimedia publishing
+  platform for building rich, media-driven stories. Automattic (the company behind
+  WordPress.com) acquired both the magazine and the platform in 2018; the platform's
+  storytelling features were folded into WordPress.com and the magazine now runs on
+  Newspack by Automattic. The Atavist exposes no public developer API or documented
+  developer program — it is a reader-facing publication at magazine.atavist.com.
 url: https://raw.githubusercontent.com/api-evangelist/the-atavist/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,39 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Publishing
+- Media
+- Journalism
+- Storytelling
+- Content
+- Magazine
 apis: []
+common:
+- type: DomainSecurity
+  url: security/the-atavist-domain-security.yml
+- type: Website
+  url: https://magazine.atavist.com/
+- type: About
+  url: https://magazine.atavist.com/about/
+- type: SignUp
+  url: https://magazine.atavist.com/subscribe/
+- type: PrivacyPolicy
+  url: https://automattic.com/privacy/
+- type: TermsOfService
+  url: https://automattic.com/terms/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
