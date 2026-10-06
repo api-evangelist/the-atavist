@@ -43,7 +43,7 @@ x-tier-reason: portfolio-lead
 x-no-api-surface: true
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Publishing
@@ -54,6 +54,8 @@ tags:
 - Magazine
 apis: []
 common:
+- url: https://magazine.atavist.com/feed
+  type: BlogRSS
 - type: DomainSecurity
   url: security/the-atavist-domain-security.yml
 - type: Website
